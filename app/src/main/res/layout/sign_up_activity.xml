@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignUpActivityActivity"
+    android:orientation="vertical">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:srcCompat="@tools:sample/avatars"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginStart="10sp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/images"
+        android:contentDescription="TODO"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginVertical="40dp"
+        android:fontFamily="@font/aclonica"
+        android:text="Create an Account"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/facebook"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginLeft="50sp"
+        android:padding="10sp"
+        android:paddingRight="30sp"
+        android:paddingEnd="160sp"
+        android:background="@drawable/border"
+        android:fontFamily="@font/alatsi"
+        android:text="Continue with Facebook"
+        />
+    <TextView
+        android:id="@+id/google"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginLeft="50sp"
+        android:layout_marginTop="20sp"
+        android:padding="10sp"
+        android:paddingRight="30sp"
+        android:paddingEnd="175sp"
+        android:background="@drawable/border"
+        android:fontFamily="@font/alatsi"
+        android:text="Continue with Google"
+        />
+    <TextView
+        android:id="@+id/apple"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginLeft="50sp"
+        android:layout_marginTop="20sp"
+        android:padding="10sp"
+        android:paddingRight="30sp"
+        android:paddingEnd="180sp"
+        android:background="@drawable/border"
+        android:fontFamily="@font/alatsi"
+        android:text="@string/continue_with_apple"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20sp"
+        android:fontFamily="sans-serif-condensed-light"
+        android:text="_____________________________   or   _____________________________"
+        android:textSize="15sp" />
+    <TextView
+        android:id="@+id/create_emile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginLeft="50sp"
+        android:layout_marginTop="50sp"
+        android:padding="10sp"
+        android:paddingRight="30sp"
+        android:paddingEnd="180sp"
+        android:background="@drawable/border"
+        android:fontFamily="@font/alatsi"
+        android:text="Sign Up with Email"
+
+        />
+
+
+
+</LinearLayout>
